@@ -12,6 +12,8 @@ workspace:
       service-api: 8888
       gva-mysql: 3306
       phpmyadmin: 8090
+      web: 8000
+      ideweb: 6808
     ide-type: jb-projector
     volumes:
       git-config: true
