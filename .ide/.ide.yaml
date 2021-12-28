@@ -51,9 +51,11 @@ workspace:
       expose:
         - 3000
         - 8000
+        - 22
       ports:
         - 6808:3000
         - 8000:8000
+        - 6822：22
       depends_on:
         - server-dev
       links:
